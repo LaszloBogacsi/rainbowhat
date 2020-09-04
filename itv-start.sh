@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/id_rsa_rpi  pi@pi sudo python3 -u  < itv_pic.py > "itv.pid" &

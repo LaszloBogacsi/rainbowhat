@@ -1,0 +1,1 @@
+tail -1 itv.pid | xargs ssh  -i ~/.ssh/id_rsa_rpi  pi@pi sudo kill -SIGINT
